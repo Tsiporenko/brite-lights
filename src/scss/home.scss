@@ -455,7 +455,7 @@
   @media (max-width: 1000px) {
     padding-top: 90px;
   }
-  
+
   &__inner {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -554,3 +554,22 @@
   }
 }
 
+//===== EVENTS BLOCK =====
+
+.events {
+  padding-top: 180px;
+  @media (max-width: 1000px) {
+    padding-top: 90px;
+  }
+  //temp
+  padding-bottom: 200px;
+  //temp
+  &__container {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__item {
+
+  }
+}
