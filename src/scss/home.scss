@@ -564,12 +564,14 @@
   //temp
   padding-bottom: 200px;
   //temp
-  &__container {
+
+  &__inner {
     display: flex;
-    gap: 30px;
-  }
-
-  &__item {
-
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media (max-width: 1080px) {
+      gap: 30px;
+      justify-content: center;
+    }
   }
 }
