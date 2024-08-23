@@ -1,0 +1,12 @@
+footer {
+    padding-top: 180px;
+    //temp
+    padding-bottom: 200px;
+    //temp 
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
