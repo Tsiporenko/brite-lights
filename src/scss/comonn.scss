@@ -93,3 +93,86 @@
         line-height: 27px;
     }
 }
+
+.ticket {
+    background-color: rgb(52, 48, 48);
+    border-radius: 30px 0 30px 0;
+
+    @media (max-width: 1100px) {
+        width: calc(50% - 10px);
+    }
+
+    @media (max-width: 700px) {
+        width: 80%;
+    }
+
+    @media (max-width: 500px) {
+        width: 100%;
+    }
+
+    &__img {
+        border-radius: 30px 0 30px 0;
+        width: 100%;
+    }
+
+    &__location {
+        padding: 30px 0 20px 35px;
+
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        color: grey;
+
+        @media (max-width: 500px) {
+            padding-left: 25px;
+        }
+    }
+
+    &__title {
+        padding: 0 0 30px 35px;
+
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        color: white;
+
+        @media (max-width: 500px) {
+            padding-left: 25px;
+        }
+    }
+
+    &__bottombar {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 40px;
+
+        @media (max-width: 500px) {
+            padding-left: 25px;
+        }
+    }
+
+    &__data {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+        color: gray;
+    }
+
+    &__button { 
+        padding: 20px 60px 20px 50px; 
+
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: white;
+        
+        background-color: #7A66CC;
+        border-radius: 30px 0 30px 0;
+    }
+}
