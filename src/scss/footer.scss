@@ -1,6 +1,9 @@
 .footer {
     padding-top: 180px;
     padding-bottom: 40px;
+    @media (max-width: 1000px) {
+        padding-top: 90px;
+    }
     &__inner {
         display: flex;
         flex-direction: column;
@@ -15,6 +18,9 @@
     &__discription {
         display: flex;
         gap: 30px;
+        @media (max-width: 550px) {
+            gap: 15px;
+        }
     }
 
     &__item {
@@ -30,6 +36,15 @@
         text-align: right;
         text-transform: uppercase;
         color: white;
+        @media (max-width: 550px) {
+            font-size: 14px;
+            line-height: 18px;
+        }
+
+        @media (max-width: 450px) {
+            font-size: 12px;
+            line-height: 15px;
+        }
     }
 
     &__text {
@@ -37,6 +52,15 @@
         font-size: 18px;
         line-height: 27px;
         color: white;
+        @media (max-width: 550px) {
+            font-size: 14px;
+            line-height: 18px;
+        }
+
+        @media (max-width: 450px) {
+            font-size: 12px;
+            line-height: 15px;
+        }
     }
 
     &__message {
@@ -44,6 +68,11 @@
         gap: 30px;
         padding-top: 60px;
         padding-bottom: 100px;
+        @media (max-width: 550px) {
+            flex-wrap: wrap; 
+            justify-content: center;
+            align-items: center;    
+        }
     }
 
     &__img {
